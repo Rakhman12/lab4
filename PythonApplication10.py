@@ -1,0 +1,18 @@
+x = 'sabirov'
+y = '456'
+print(x + y)
+print(x * 3, y * 3)
+print('len x =', len(x), 'and len y =', len(y))
+print(x[5], 'and', y[1])
+print(x[3:5], 'and', y[::-1])
+print(x.isalpha(), 'and', y.isalpha())
+print(x.islower(), 'and', y.islower())
+print(x.isupper(), 'and', y.isupper())
+print(x.isdigit(), 'and', y.isdigit())
+print(x.isnumeric(), 'and', y.isnumeric())
+print(x.startswith('sab'), 'and', y.startswith('sab'))
+print(x.endswith('456'), 'and', y.endswith('456'))
+print(x.upper(), 'and', y.upper())
+print(x.find('a', 2, 7), 'and', y.find('4'))
+print(x.replace('o', '#'), 'and', y.replace('4', '5'))
+print(x.join('cet'), 'and', y.join('sab'))
